@@ -1,0 +1,70 @@
+.blog-card {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 0px 24px;
+  position: relative;
+  width: 357px;
+}
+
+.blog-card .image {
+  align-self: stretch;
+  background-image: url(https://cdn.animaapp.com/projects/652304fcedfff75bb0312a0c/releases/6524d67318323c3299a77de1/img/image@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 337px;
+  opacity: 0.9;
+  position: relative;
+  width: 100%;
+}
+
+.blog-card .img {
+  height: 2px;
+  position: relative;
+  width: 48px;
+}
+
+.blog-card .data {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.blog-card .subject {
+  align-items: flex-start;
+  background-color: #74b6cb;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.blog-card .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.blog-card .implementing-a {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}

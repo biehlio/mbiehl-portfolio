@@ -1,0 +1,37 @@
+.detail-line {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 736px;
+}
+
+.detail-line .type {
+  height: 17px;
+  position: relative;
+  width: 86px;
+}
+
+.detail-line .who {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.detail-line .get-more-math {
+  color: #000000;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}

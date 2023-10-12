@@ -1,0 +1,28 @@
+.section-title {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  position: relative;
+}
+
+.section-title .UX-strategy {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.section-title .line {
+  align-self: stretch;
+  height: 3px;
+  margin-bottom: -3px;
+  position: relative;
+  width: 100%;
+}

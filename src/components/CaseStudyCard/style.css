@@ -1,0 +1,99 @@
+.case-study-card {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 0px 24px;
+  position: relative;
+  width: 736px;
+}
+
+.case-study-card .div {
+  align-self: stretch;
+  background-image: url(https://cdn.animaapp.com/projects/652304fcedfff75bb0312a0c/releases/6524d67318323c3299a77de1/img/image@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 136px;
+  opacity: 0.9;
+  position: relative;
+  width: 100%;
+}
+
+.case-study-card .line-2 {
+  height: 2px;
+  position: relative;
+  width: 48px;
+}
+
+.case-study-card .data-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.case-study-card .case-study-wrapper {
+  align-items: flex-start;
+  background-color: #74b6cb;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.case-study-card .case-study {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.case-study-card .bottom-section {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.case-study-card .text-wrapper-2 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.case-study-card .details {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.case-study-card .detail-line-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
